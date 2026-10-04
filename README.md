@@ -119,7 +119,7 @@ Dropsize = `SUM(ACTUAL) / COUNT(DISTINCT ACCOUNT)` per dimension and period. It 
 
 ```bash
 # 1. Clone
-git clone https://github.com/yourusername/fmcg-sales-dashboard.git
+git clone https://github.com/yourusername/fmcg-commercial-dashboard.git
 cd fmcg-sales-dashboard
 
 # 2. Install dependencies
