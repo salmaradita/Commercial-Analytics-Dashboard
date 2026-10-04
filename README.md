@@ -1,6 +1,6 @@
 # Commercial Analytics Dashboard
 
-> An internal sales analytics dashboard built with Python + Streamlit — designed to handle millions of rows of FMCG transactional data efficiently without any paid BI tool or cloud subscription.
+> An internal commercial analytics dashboard built with Python + Streamlit — designed to handle millions of rows of FMCG transactional data efficiently without any paid BI tool or cloud subscription.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-FF4B4B?logo=streamlit&logoColor=white)
@@ -111,7 +111,7 @@ GROUP BY brand
 
 ### Dropsize
 
-Dropsize = `SUM(ACTUAL) / COUNT(DISTINCT ACCOUNT)` per dimension and period. It measures how deeply each active outlet is engaged — a high dropsize means each outlet is ordering more on average. It is re-computed at the correct aggregation level to avoid division errors.
+Dropsize = `SUM(ACTUAL) / COUNT(DISTINCT ACCOUNT)` per dimension and period. It measures how deeply each active outlet is engaged — a high dropsize means each outlet is ordering more on average. It is recomputed at the correct aggregation level to avoid division errors.
 
 ---
 
@@ -141,7 +141,7 @@ The app auto-detects `demo_data/sales_demo.parquet` and runs in demo mode. To po
 ## Project structure
 
 ```
-fmcg-sales-dashboard/
+fmcg-commercial-dashboard/
 ├── app_demo.py           Main Streamlit app (demo + production)
 ├── generate_demo.py      Synthetic data generator
 ├── export_pivot.py       Standalone Excel pivot exporter
