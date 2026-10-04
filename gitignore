@@ -1,0 +1,36 @@
+# ── Data — never commit real company data ──────────────────────────────────
+*.parquet
+!demo_data/sales_demo.parquet
+*.csv
+*.xlsx
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# ── Streamlit ───────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Output files ────────────────────────────────────────────────────────────
+output/
+exports/
+pivot_output.xlsx
+
+# ── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
